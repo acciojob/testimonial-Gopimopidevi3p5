@@ -12,8 +12,7 @@
 .testimonial {
     padding: 20px;                 /* inner spacing */
     border: 1px solid #ddd;        /* light border */
-    background-color: #fff;        /* white background */
-    width: 300px;                  /* fixed width */
+    background-color: #fff;        /* white background */                 /* fixed width */
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* subtle shadow */
     border-radius: 8px;            /* rounded corners */
 }
