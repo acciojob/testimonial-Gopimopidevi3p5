@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+.testimonial-section {
+  padding: 50px;                 /* padding around the whole section */
+  background-color: #f5f5f5;     /* light gray background */
+  display: flex;                 /* make testimonials align in a row */
+  gap: 20px;                     /* spacing between testimonial boxes */
+  justify-content: center;       /* center the testimonials horizontally */
+  flex-wrap: wrap;               /* wrap testimonials on smaller screens */
+}
+
+.testimonial {
+  padding: 20px;                 /* inner spacing inside each testimonial */
+  border: 1px solid #ddd;        /* light border around each box */
+  background-color: #fff;        /* white background for each testimonial */
+  width: 300px;                  /* fixed width for uniform boxes */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* subtle shadow */
+  border-radius: 8px;            /* rounded corners */
+}
+
+.testimonial-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.testimonial-author {
+  text-align: right;             /* author aligned to right */
+  font-style: italic;            /* italic style for author */
+  margin-top: 10px;              /* space between text and author */
+  color: #555;
+}
